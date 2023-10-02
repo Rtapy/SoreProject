@@ -1,1 +1,1 @@
-# SoreProject
+# StoreProject
