@@ -1,0 +1,83 @@
+/* ------- This is the CSS Reset ------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, 
+abbr, acronym, address, big, cite, code, del,
+dfn, em, img, ins, kbd, q, s, samp, small,
+strike, strong, sub, sup, tt, var, u, i, center,
+dl, dt, dd, ol, ul, li, fieldset, form, label,
+legend, table, caption, tbody, tfoot, thead, tr,
+th, td, article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, menu,
+nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url(Images/istockphoto-1484515547-612x612.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 75%;
+    background-color: #2b324cee;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #2b324c85;
+    border-radius: 15px;
+    margin: 20%;
+    height: 20rem;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.container form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.container form input {
+    background-color: #2b324c85;
+    color: #ffffff;
+    border-radius: 15px;
+    border: solid 1px;
+    height: 2rem;
+}
+
+.signin {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signup {
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container form button {
+    height: 2rem;
+    width: 30%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(0, 255, 255, 0.712);
+    
+}
